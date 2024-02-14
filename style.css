@@ -54,9 +54,11 @@ nav .input{
     display: none;
 }
 nav .checkbox i {
+    /* display: none; */
     font-size: 2rem;
     color: var(--primary-color);
     cursor: pointer;
+    
 }
 
 ul{
@@ -184,6 +186,7 @@ ul li a:hover{
         display: block;   
     }
     ul{
+        
         position: absolute;
         width: 100%;
         height: calc(100vh - 85px);
@@ -193,13 +196,16 @@ ul li a:hover{
         flex-direction: column;
         justify-content: center;
         gap: 3rem;
+        
 
     }
-    nav #check:checked ~ ul {
+    nav #check:checked ~ ul{
         left: 0;
+       
     }
     ul li a{
         font-size: 1.25rem;
+        
 
     }
     .section_container{
